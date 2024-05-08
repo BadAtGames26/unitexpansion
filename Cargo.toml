@@ -1,5 +1,5 @@
 [package]
-name = "expandlimits-plugin"
+name = "unitexpansion"
 version = "0.1.0"
 authors = ["BadAtGames26"]
 edition = "2021"
