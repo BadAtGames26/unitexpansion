@@ -28,14 +28,15 @@ pub fn main() {
 
 
         let err_msg = format!(
-            "96 Unit Expansion plugin has panicked at '{}' with the following message:\n{}\0",
+            "Unit Expansion plugin has panicked at '{}' with the following message:\n{}\0",
             location,
             msg
         );
 
         skyline::error::show_error(
             42069,
-            "96 Unit Expansion plugin has panicked! Please open the details and send a screenshot to the developer, then close the game.\n\0",
+            "
+            Unit Expansion plugin has panicked! Please open the details and send a screenshot to the developer, then close the game.\n\0",
             err_msg.as_str(),
         );
     }));
